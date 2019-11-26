@@ -1,0 +1,31 @@
+{
+  "name": "invens-dashboard",
+  "version": "1.0.0",
+  "description": "Admin dashboard for invens",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "webpack-dev-server --config=webpack.config.js --mode development --hot --progress --colors --inline"
+  },
+  "author": "Quality Think",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "import-glob-loader": "^1.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "node-sass-glob-importer": "^5.3.2",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "sass": "^1.23.7"
+  }
+}
