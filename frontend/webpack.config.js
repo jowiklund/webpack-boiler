@@ -14,7 +14,7 @@ module.exports = {
     publicPath: "/"
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, "/"),
     compress: true,
     port: 8082,
     watchContentBase: true,
@@ -82,7 +82,8 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".ts", ".js", ".css", ".scss"],
     alias: {
-      style: path.resolve(__dirname, "src/sass")
+      style: path.resolve(__dirname, "src/sass"),
+      ts: path.resolve(__dirname, "src/ts")
     }
   },
   plugins: [

@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "es2015",
     "target": "es5",
 		"sourceMap": true,
+		"watch": true,
 		"baseUrl": "./",
     "paths": {
       "style/*": ["src/sass/*"]

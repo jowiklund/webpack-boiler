@@ -1,4 +1,2 @@
 import 'style/main.scss'; 
-import { example } from './ts';
-
-example('asfgfg');
+import { example } from 'ts/index';
