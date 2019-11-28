@@ -14,7 +14,7 @@ module.exports = {
 		publicPath: "/"
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, "/"),
     compress: true,
 		port: 8082,
 		watchContentBase: true,
