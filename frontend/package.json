@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -p",
+    "build": "webpack",
+    "build:prod": "webpack -p",
     "serve": "webpack-dev-server --config=webpack.config.js --mode development --hot --progress --colors --inline"
   },
   "author": "Quality Think",
