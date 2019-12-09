@@ -1,4 +1,4 @@
 node_modules
 legacy
 legacy-index.html
-dist
+frontend/dist
